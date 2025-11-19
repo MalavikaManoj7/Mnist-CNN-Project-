@@ -1,12 +1,16 @@
-echo "A script to create , activate and install requirements"
-echo "........"
+echo "A script to create , activate and install requirements.txt"
+echo "..........."
 
-virtualenv venv
+virtualenv venv 
 
-echo "creation of virtualenv done !"
+echo "creation of virtuealenv done....."
 echo "Activation my env"
-source vevn/bin/activate
+source venv/bin/activate
 
-echo "........"
-echo "Install requirement.txt"
-pip -install -r requirement.txt
+echo "..........."
+echo "install requirements.txt"
+pip install -r requirements.txt
+
+sleep(2)
+echo "install done"
+echo "Creation Activation and install of library done"
